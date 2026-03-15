@@ -97,6 +97,11 @@ header .overlay {
     height: 40px;
     border-radius: 5px;
     font-weight: 900;
+    font-size: 20px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -317,10 +322,150 @@ overflow: hidden;}
 }
 
 
+.txt5 {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-left: 14vw;
+    margin-top: 10vh;
+
+}
 
 
+.faq {
+
+    height: 60vh;
+    width: 70vw;
+    margin: auto;
+    margin-top: 3vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.faq div {
+
+    width: 70vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(42, 41, 41);
+    font-size: 12px;
+    justify-content: center;
+    padding-left: 20px;}   
 
 
+.faq h1 {
+
+    font-weight: 500;
+    position: relative;
+    z-index: 4;
+}
+
+.box1 {
+
+    height: 20vh;
+    width: 70vw;
+    margin: auto;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+
+.box1 h1 {
+
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: 500;
+}
+
+.emailbox2 {
+
+    height: 11vh;
+    width: 70vw;
+    margin-top: 3vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+    padding: 3px 5px 0px;
+    gap: 1%;
+}
+
+.emailbox2 input {
+
+
+    height:90%;
+    width: 70%;
+    border-radius: 5px;
+    background-color: rgba(20, 20,20, 0.5);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-left: 20px;}
+
+.box1 button {
+
+    width: 25%;
+    height: 90%;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 25px;    
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+}
+
+
+footer {
+
+    height: 70vh;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    margin-top: 12vh;
+}
+
+
+footer h1 {
+
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(149, 149, 149);
+margin-left: 10vw;}
+
+
+footer div {
+
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+    height: 30%;
+    width: 60%;
+    flex-wrap: wrap;
+    margin-left: 10vw;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+footer div h2 {
+
+    font-size: 18px;
+    color: rgb(149, 149, 149);
+    font-weight: 500;
+    text-decoration: underline;
+}
 
 
 
@@ -459,4 +604,109 @@ overflow: hidden;}
     border-radius: 10px;
     background: linear-gradient(to bottom, #1f2346, #2b0f2e);
     margin: auto;
-} }
+} 
+
+.txt5 {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-left: 5vw;
+    margin-top: 10vh;
+}
+
+
+
+.faq {
+
+    width: 90vw;
+    height: 40vh;
+}
+.faq div {
+
+    height: 30%;
+    width: 100%;
+    margin-left: 0;
+}
+
+.faq div h1 {
+
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+.box1 {
+    height: 23vh;
+    width: 90vw;
+    margin: auto;
+    margin-top: 7vh;
+
+
+}
+
+
+.emailbox2 {
+
+    width: 90vw;
+    height: 15vh;
+}
+
+.emailbox2 input {
+
+    width: 90vw;
+    height: 6vh;}
+
+.emailbox2 button {
+
+    width: 40vw;
+    height: 6vh;
+    margin-top: 2vh;
+    font-size: 18px;}
+
+
+footer div {
+
+    width: 40vw;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    height: 30vh;
+    gap: 1vh;
+
+}
+
+footer h1 {
+
+    font-size: 14px;
+    font-weight: 400;}
+
+footer div h2 {
+
+    font-size: 14px;
+    font-size: 300;
+
+
+}
+
+#last {
+
+    font-size: 13px;
+    font-weight: 400;
+    margin-left: 10vw;
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 20px;
+
+}}
+
+
+
+
+
+
+
+
+
+
+
+
+
